@@ -124,6 +124,7 @@ int main()
 
     insertatpos(6, 96);
 
+
     cout << "After insertion: ";
     display();
 
