@@ -1,4 +1,4 @@
-// Program to insert an element at any position of an array
+//Program to insert an element at any position of an array
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
@@ -9,7 +9,7 @@ void insert_at_pos(int arr[], int &n, int ele, int pos)
         arr[i+1]=arr[i];
     }
     arr[pos-1]= ele;
-    n++;
+    n++; 
 
 }
 int main()
